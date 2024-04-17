@@ -1,0 +1,2 @@
+export {Tekan} from './Tekan';
+
