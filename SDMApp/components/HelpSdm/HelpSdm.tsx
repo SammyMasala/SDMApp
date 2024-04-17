@@ -1,5 +1,5 @@
-import {useStyles, createStyleSheet} from 'styles';
-import {View, Text, Image} from 'react-native';
+import { useStyles, createStyleSheet } from 'react-native-unistyles';
+import { View, Text, Image } from 'react-native';
 import search from 'assets/images/search.png';
 
 export interface HelpSdmProps {
@@ -7,15 +7,15 @@ export interface HelpSdmProps {
 }
 
 export function HelpSdm(props: HelpSdmProps) {
-  const {styles, theme} = useStyles(stylesheet);
+  const { styles, theme } = useStyles(stylesheet);
 
   return (
     <View style={styles.root} testID={props.testID}>
-      <View style={styles.frame} testID="28:40"/>
+      <View style={styles.frame} testID="28:40" />
       <Text style={styles.bantuSdm} testID="28:39">
         {`Bantu SDM!`}
       </Text>
-      <Image source={{uri: search}} style={{width: 90, height: 90}} resizeMode="cover"/>
+      <Image source={{ uri: search }} style={{ width: 90, height: 90 }} resizeMode="cover" />
     </View>
   );
 }
@@ -27,7 +27,7 @@ const stylesheet = createStyleSheet(theme => ({
     flexShrink: 0,
     shadowColor: 'rgba(0, 0, 0, 0.250980406999588)',
     shadowRadius: 4,
-    shadowOffset: {"width":0,"height":4},
+    shadowOffset: { "width": 0, "height": 4 },
   },
   frame: {
     width: 241,

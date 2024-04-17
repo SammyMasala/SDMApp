@@ -1,8 +1,9 @@
-import { useStyles, createStyleSheet } from 'styles';
+import { useStyles, createStyleSheet } from 'react-native-unistyles'
 import { View } from 'react-native';
-import Ellipse1 from '../../assets/vectors/Ellipse1.svg';
+import Ellipse1 from 'assets/vectors/Ellipse1.svg';
 import Rectangle7 from 'assets/vectors/Rectangle7.svg';
 import Vector from 'assets/vectors/Vector.svg';
+import React from 'react';
 
 export interface FooterProps {
   testID?: string,
