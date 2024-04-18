@@ -1,12 +1,12 @@
-import {useStyles, createStyleSheet} from 'styles';
-import {View, Text} from 'react-native';
+import { useStyles, createStyleSheet } from 'react-native-unistyles';
+import { View, Text } from 'react-native';
 
 export interface TekanProps {
   testID?: string,
 }
 
 export function Tekan(props: TekanProps) {
-  const {styles, theme} = useStyles(stylesheet);
+  const { styles, theme } = useStyles(stylesheet);
 
   return (
     <View style={styles.root} testID={props.testID}>

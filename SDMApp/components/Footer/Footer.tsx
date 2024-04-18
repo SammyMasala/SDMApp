@@ -1,8 +1,6 @@
 import { useStyles, createStyleSheet } from 'react-native-unistyles'
 import { View } from 'react-native';
-import Ellipse1 from 'assets/vectors/Ellipse1.svg';
-import Rectangle7 from 'assets/vectors/Rectangle7.svg';
-import Vector from 'assets/vectors/Vector.svg';
+import { Ellipse1, Rectangle7, Vector } from '../../assets/vectors/';
 import React from 'react';
 
 export interface FooterProps {
